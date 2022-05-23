@@ -16,11 +16,10 @@ Apply Feature selection techniques to all the features of the data set
 ### STEP 4
 Save the data to the file
 
-
+```
 # CODE
 Developed By: THENMOZHI P
 Reg.No: 212221230116
-
 BOSTON DATASET:
 from sklearn.datasets import load_boston
 import pandas as pd
@@ -129,7 +128,7 @@ import matplotlib
 matplotlib.rcParams['figure.figsize'] = (8.0, 10.0)
 imp_coef.plot(kind = "barh")
 plt.title("Feature importance using Lasso Model")
-
+```
 # OUPUT:
 ![output](.//t1.png)
 ![output](.//t2.png)
